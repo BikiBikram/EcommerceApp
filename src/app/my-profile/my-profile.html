@@ -1,0 +1,430 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+  rel="stylesheet" />
+
+<!-- ══════════ NAVBAR ══════════ -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand brand-text" href="#">
+      <span class="logo-wrapper">
+        <img src="assets/images/biki.png" alt="Biki" class="logo-img">
+      </span>
+
+      <span></span>
+    </a>
+
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navMenu">
+      <i class="bi bi-list fs-2"></i>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+
+      <ul class="navbar-nav align-items-lg-center">
+
+        <li class="nav-item">
+          <a class="nav-link active">
+            Home
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link">
+            About
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link">
+            Projects
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link">
+            Contact
+          </a>
+        </li>
+
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-primary hire-btn">
+            Hire Me
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+<!-- ══════════ HERO ══════════ -->
+<section class="hero-section">
+  <!-- Decorative dots -->
+  <div class="dot-deco" style="width:10px;height:10px;background:var(--primary);opacity:0.4;top:30%;left:48%;"></div>
+  <div class="dot-deco" style="width:7px;height:7px;opacity:0.35;top:60%;left:52%;"></div>
+  <div class="dot-deco" style="width:12px;height:12px;background:var(--primary);opacity:0.2;top:20%;left:56%;"></div>
+  <div class="dot-deco"
+    style="width:16px;height:16px;background:#f59e0b;opacity:0.3;top:70%;left:45%;border-radius:3px;transform:rotate(45deg)">
+  </div>
+
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <!-- Left content -->
+      <div class="col-lg-6">
+        <!-- <div class="badge-pill">
+          <span class="dot"></span>
+          .NET Full Stack Developer
+        </div> -->
+        <h1 class="hero-title">
+          I Build Scalable<br />
+          Web Applications<br />
+          That <span class="highlight">Solve Real Problems</span>
+        </h1>
+        <p class="hero-sub">
+          Full Stack Developer with expertise in .NET, Angular and modern web technologies. Passionate about clean code,
+          scalable architecture and great user experiences.
+        </p>
+        <!-- <div class="d-flex flex-wrap gap-3 mb-2">
+          <a href="#" class="btn-primary-cta">View My Work <i class="bi bi-arrow-right"></i></a>
+          <a href="#" class="btn-outline-cta">Download CV <i class="bi bi-download"></i></a>
+        </div>
+        <div class="scroll-down mt-3">
+          Scroll Down <i class="bi bi-arrow-down"></i>
+        </div> -->
+      </div>
+
+      <!-- Right: hero image with floating badges -->
+      <div class="col-lg-6 position-relative">
+        <div class="hero-image-wrap">
+          <!-- Placeholder image — swap src for a real photo -->
+          <img src="assets/images/profile.png" alt="Developer at work" />
+        </div>
+        <!-- Floating .NET badge -->
+        <div class="tech-float net" style="top:28px;left:20px;">
+          .NET
+        </div>
+        <div class="tech-float sql" style="top:258px; left:20px;">
+          <svg width="26" height="26" viewBox="0 0 64 64" fill="none">
+            <path d="M32 8C22 8 14 11 14 15V49C14 53 22 56 32 56C42 56 50 53 50 49V15C50 11 42 8 32 8Z"
+              fill="#CC2927" />
+            <path d="M14 15C14 19 22 22 32 22C42 22 50 19 50 15" stroke="white" stroke-width="2" fill="none" />
+            <path d="M14 32C14 36 22 39 32 39C42 39 50 36 50 32" stroke="white" stroke-width="2" fill="none" />
+            <path d="M14 49C14 53 22 56 32 56C42 56 50 53 50 49" stroke="white" stroke-width="2" fill="none" />
+          </svg>
+
+          SQL Server
+        </div>
+        <!-- Floating Angular -->
+        <div class="tech-float angular" style="top:24px;right:40px;">
+          <svg width="26" height="26" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="125,0 250,45 213,195 125,250 37,195 0,45" fill="#DD0031" />
+            <polygon points="125,0 125,250 37,195 0,45" fill="#C3002F" />
+            <path d="M125 35L60 185h26l13-33h52l13 33h26L125 35zm0 58l18 48H107l18-48z" fill="white" />
+          </svg>
+          Angular
+        </div>
+        <!-- Floating TS -->
+        <div class="tech-float ts" style="top:42%;right:-14px;">
+          <svg width="22" height="22" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+            <rect width="400" height="400" fill="#3178C6" rx="20" />
+            <path
+              d="M87 245v28c7 4 16 7 25 8 10 2 20 2 30 1 9-1 17-4 24-8 7-4 12-10 15-17 4-7 5-16 5-26v-121h-48v120c0 8-2 13-5 17-3 3-8 5-14 5-6 0-12-2-17-5-5-2-10-6-15-11v9zm182-125c-8-3-17-5-27-7-10-1-21-1-31 1-10 1-19 4-27 9-7 4-13 11-17 18-4 8-6 17-6 27 0 10 2 18 6 25 4 7 10 12 18 17 7 4 15 7 24 10 9 3 17 6 24 10 7 3 13 7 17 12 4 5 6 11 6 19 0 7-2 13-7 18-4 4-11 7-19 7-9 0-17-2-25-6-8-4-15-9-21-16v32c7 5 16 8 26 10 10 2 21 3 32 2 10-1 20-4 28-8 8-5 14-11 18-19 5-8 7-17 7-27 0-10-2-18-6-25-4-7-10-13-18-18-7-5-15-8-23-11-8-3-16-6-23-9-7-3-12-7-17-12-4-4-6-10-6-17 0-7 2-12 7-17 5-4 11-6 19-6 7 0 14 1 21 4 7 3 13 7 18 12v-31z"
+              fill="white" />
+          </svg>
+          TS
+        </div>
+        <!-- Floating C# -->
+        <div class="tech-float csharp" style="bottom:55px;right:10px;">
+          <svg width="22" height="22" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#9B4993"
+              d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z" />
+            <path fill="#68217A"
+              d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z" />
+            <path fill="#fff"
+              d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6zM97 66.2l.9-4.3h-4.2v-4.7h5.1L100 51h4.9l-1.2 6.2h3.8l1.2-6.2h4.8l-1.2 6.2h2.4v4.7h-3.3l-.9 4.3h3.3v4.7h-4.2L108.2 77H103l1.2-6.1h-3.8L99.2 77h-4.8l1.2-6.1h-2.4v-4.7H97zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z" />
+          </svg>
+          C#
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ══════════ INFO ROW ══════════ -->
+<section class="info-row">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Tech Stack -->
+      <div class="col-lg-4">
+        <div class="info-card">
+          <div class="card-head">Tech Stack</div>
+          <div class="tech-grid">
+            <!-- .NET -->
+            <div class="tech-item">
+              <div class="tech-icon-box" style="background:#6c40d4;border-color:#6c40d4;">
+                <span style="color:white;font-weight:800;font-size:0.7rem;">.NET</span>
+              </div>
+              .NET 8
+            </div>
+            <!-- C# -->
+            <div class="tech-item">
+              <div class="tech-icon-box" style="background:#9B4993;border-color:#9B4993;">
+                <svg width="26" height="26" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#fff"
+                    d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6zM97 66.2l.9-4.3h-4.2v-4.7h5.1L100 51h4.9l-1.2 6.2h3.8l1.2-6.2h4.8l-1.2 6.2h2.4v4.7h-3.3l-.9 4.3h3.3v4.7h-4.2L108.2 77H103l1.2-6.1h-3.8L99.2 77h-4.8l1.2-6.1h-2.4v-4.7H97zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z" />
+                </svg>
+              </div>
+              C#
+            </div>
+            <!-- Angular -->
+            <div class="tech-item">
+              <div class="tech-icon-box" style="background:#DD0031;border-color:#DD0031;">
+                <svg width="26" height="26" viewBox="0 0 250 250" fill="none">
+                  <path d="M125 35L60 185h26l13-33h52l13 33h26L125 35zm0 58l18 48H107l18-48z" fill="white" />
+                </svg>
+              </div>
+              Angular
+            </div>
+            <!-- TypeScript -->
+            <div class="tech-item">
+              <div class="tech-icon-box" style="background:#3178C6;border-color:#3178C6;">
+                <svg width="26" height="26" viewBox="0 0 400 400">
+                  <rect width="400" height="400" fill="transparent" />
+                  <path
+                    d="M87 245v28c7 4 16 7 25 8 10 2 20 2 30 1 9-1 17-4 24-8 7-4 12-10 15-17 4-7 5-16 5-26v-121h-48v120c0 8-2 13-5 17-3 3-8 5-14 5-6 0-12-2-17-5-5-2-10-6-15-11v9zm182-125c-8-3-17-5-27-7-10-1-21-1-31 1-10 1-19 4-27 9-7 4-13 11-17 18-4 8-6 17-6 27 0 10 2 18 6 25 4 7 10 12 18 17 7 4 15 7 24 10 9 3 17 6 24 10 7 3 13 7 17 12 4 5 6 11 6 19 0 7-2 13-7 18-4 4-11 7-19 7-9 0-17-2-25-6-8-4-15-9-21-16v32c7 5 16 8 26 10 10 2 21 3 32 2 10-1 20-4 28-8 8-5 14-11 18-19 5-8 7-17 7-27 0-10-2-18-6-25-4-7-10-13-18-18-7-5-15-8-23-11-8-3-16-6-23-9-7-3-12-7-17-12-4-4-6-10-6-17 0-7 2-12 7-17 5-4 11-6 19-6 7 0 14 1 21 4 7 3 13 7 18 12v-31z"
+                    fill="white" />
+                </svg>
+              </div>
+              TypeScript
+            </div>
+            <!-- HTML5 -->
+            <div class="tech-item">
+              <div class="tech-icon-box" style="background:#e34f26;border-color:#e34f26;">
+                <span style="color:white;font-weight:800;font-size:0.7rem;">HTML</span>
+              </div>
+              HTML5
+            </div>
+            <!-- CSS3 -->
+            <div class="tech-item">
+              <div class="tech-icon-box" style="background:#264de4;border-color:#264de4;">
+                <span style="color:white;font-weight:800;font-size:0.7rem;">CSS</span>
+              </div>
+              CSS3
+            </div>
+            <!-- SQL Server -->
+            <div class="tech-item">
+              <div class="tech-icon-box" style="background:#CC2927;border-color:#CC2927;">
+                <i class="bi bi-database-fill" style="color:white;font-size:1.2rem;"></i>
+              </div>
+              SQL Server
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- What I Do -->
+      <div class="col-lg-4">
+        <div class="info-card">
+          <div class="card-head">What I Do</div>
+          <div class="mt-3">
+            <div class="service-item">
+              <div class="service-icon"><i class="bi bi-layout-text-window-reverse"></i></div>
+              <div>
+                <div class="service-name">Frontend Development</div>
+                <div class="service-desc">Building responsive and interactive UIs with Angular</div>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="service-icon"><i class="bi bi-server"></i></div>
+              <div>
+                <div class="service-name">Backend Development</div>
+                <div class="service-desc">Developing robust APIs with .NET Core</div>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="service-icon"><i class="bi bi-database"></i></div>
+              <div>
+                <div class="service-name">Database Design</div>
+                <div class="service-desc">Designing and optimizing SQL Server databases</div>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="service-icon"><i class="bi bi-cloud-upload"></i></div>
+              <div>
+                <div class="service-name">DevOps &amp; Deployment</div>
+                <div class="service-desc">CI/CD, Docker, Azure and cloud deployment</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience & Achievements -->
+      <div class="col-lg-4">
+        <div class="info-card">
+          <div class="card-head">Experience &amp; Achievements</div>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-icon" style="background:#eff6ff;color:#3b82f6;"><i class="bi bi-briefcase-fill"></i>
+              </div>
+              <div>
+                <div class="stat-num">6+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-icon" style="background:#f0fdf4;color:#22c55e;"><i class="bi bi-check-circle-fill"></i>
+              </div>
+              <div>
+                <div class="stat-num">6+</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-icon" style="background:#fdf4ff;color:#a855f7;"><i class="bi bi-people-fill"></i></div>
+              <div>
+                <div class="stat-num">3+</div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-icon" style="background:#fffbeb;color:#f59e0b;"><i class="bi bi-trophy-fill"></i></div>
+              <div>
+                <div class="stat-num">1</div>
+                <div class="stat-label">Certifications</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FEATURED PROJECTS ══════════ -->
+<section class="projects-section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-eyebrow">Featured Projects</div>
+      <h2 class="section-title">Some Things I've Built</h2>
+      <div class="underline-bar"></div>
+    </div>
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-mock">
+            <div class="mock-bar">
+              <div class="mock-dot" style="background:#ef4444;"></div>
+              <div class="mock-dot" style="background:#f59e0b;"></div>
+              <div class="mock-dot" style="background:#22c55e;"></div>
+            </div>
+            <div class="mock-lines">
+              <div class="mock-line highlight"></div>
+              <div class="mock-line"></div>
+              <div class="mock-line short"></div>
+              <div class="mock-line med"></div>
+              <div class="mock-line"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">Dashboard Analytics</div>
+            <div class="project-desc">Real-time analytics dashboard built with Angular and .NET Core, featuring charts,
+              KPI tracking, and role-based access control.</div>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="tag">Angular</span>
+              <span class="tag">.NET Core</span>
+              <span class="tag">SQL Server</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-mock" style="background:linear-gradient(135deg,#1e1b4b,#312e81);">
+            <div class="mock-bar" style="background:#3730a3;">
+              <div class="mock-dot" style="background:#ef4444;"></div>
+              <div class="mock-dot" style="background:#f59e0b;"></div>
+              <div class="mock-dot" style="background:#22c55e;"></div>
+            </div>
+            <div class="mock-lines">
+              <div class="mock-line" style="background:rgba(129,140,248,0.3);"></div>
+              <div class="mock-line short" style="background:rgba(255,255,255,0.07);"></div>
+              <div class="mock-line" style="background:rgba(129,140,248,0.2);"></div>
+              <div class="mock-line med" style="background:rgba(255,255,255,0.07);"></div>
+              <div class="mock-line" style="background:rgba(129,140,248,0.15);"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">E-Commerce Platform</div>
+            <div class="project-desc">Scalable e-commerce solution with product management, cart, payment gateway
+              integration, and admin portal built on .NET 8.</div>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="tag">.NET 8</span>
+              <span class="tag">Angular</span>
+              <span class="tag">Azure</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-mock" style="background:linear-gradient(135deg,#052e16,#14532d);">
+            <div class="mock-bar" style="background:#166534;">
+              <div class="mock-dot" style="background:#ef4444;"></div>
+              <div class="mock-dot" style="background:#f59e0b;"></div>
+              <div class="mock-dot" style="background:#22c55e;"></div>
+            </div>
+            <div class="mock-lines">
+              <div class="mock-line" style="background:rgba(34,197,94,0.25);"></div>
+              <div class="mock-line short" style="background:rgba(255,255,255,0.07);"></div>
+              <div class="mock-line med" style="background:rgba(34,197,94,0.15);"></div>
+              <div class="mock-line" style="background:rgba(255,255,255,0.07);"></div>
+              <div class="mock-line short" style="background:rgba(34,197,94,0.2);"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">HRMS System</div>
+            <div class="project-desc">Full-featured HR management system with employee onboarding, leave management,
+              payroll, and attendance tracking modules.</div>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="tag">C#</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Docker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>&copy; 2026 Full Stack Developer. Built with .NET &amp; Angular.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Theme toggle (light/dark stub)
+  document.querySelector('.theme-toggle').addEventListener('click', function () {
+    this.querySelector('i').classList.toggle('bi-sun');
+    this.querySelector('i').classList.toggle('bi-moon');
+  });
+
+  // Smooth scroll for nav links
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+</script>

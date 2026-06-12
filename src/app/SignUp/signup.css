@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.signup-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.signup-card {
+  width: 950px;
+  max-width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.left-section {
+  flex: 1;
+  background: linear-gradient(135deg, #4338ca, #7c3aed);
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-section h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.left-section p {
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.left-section img {
+  width: 280px;
+  align-self: center;
+}
+
+.right-section {
+  flex: 1;
+  padding: 50px;
+}
+
+.right-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #4f46e5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+.login-link a {
+  text-decoration: none;
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .signup-card {
+    flex-direction: column;
+  }
+
+  .left-section {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .left-section img {
+    width: 180px;
+  }
+
+  .right-section {
+    padding: 30px;
+  }
+}
+/* Tablet */
+@media (min-width: 768px) {
+  .signup-card {
+    flex-direction: row;
+  }
+
+  .left-section,
+  .right-section {
+    flex: 1;
+    padding: 40px;
+  }
+
+  .left-section {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .left-section p {
+    font-size: 1rem;
+  }
+
+  .left-section img {
+    width: 250px;
+    margin-top: 20px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .signup-card {
+    max-width: 1100px;
+  }
+
+  .left-section h1 {
+    font-size: 3rem;
+  }
+
+  .right-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .left-section,
+  .right-section {
+    padding: 50px;
+  }
+}
